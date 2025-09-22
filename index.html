@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquímetro</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Parquímetro</h1>
+        <div class="parquimetro">
+
+            <div class="input-container">
+                <label for="valorPago">Insira o valor pago (R$):</label>
+                <input type="number" id="valorPago" step="0.01" min="0" placeholder="Ex: 5.00">
+                <button id="calcularBtn">Calcular</button>
+            </div>
+
+            <div id="resultado" class="resultado"></div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
